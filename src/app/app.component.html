@@ -1,0 +1,13 @@
+<header>
+  <div><h1>{{title}}</h1></div>
+</header>
+
+<div class="container">
+    <div *ngFor="let story of hnStories | paginate: { itemsPerPage: 30, currentPage: page }" >
+        <app-story [story]="story">
+        </app-story>
+    </div>
+
+    <pagination-controls (pageChange)="page = $event"></pagination-controls>
+</div>
+

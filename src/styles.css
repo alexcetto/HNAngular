@@ -1,0 +1,80 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    background: #f6f6f6;
+}
+
+header {
+    background: white;
+    width: 100%;
+    padding: .5em;
+}
+
+header > div {
+    margin: 0 auto;
+    width: 80%;
+}
+
+header > div > h1 {
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-size: large;
+    margin: 0 2em;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+app-story {
+
+}
+
+.storyContainer {
+    width: 100%;
+    border-bottom: 1px solid #EEEEEE;
+    padding: .75em;
+    height: 1em;
+    font-size: 1em;
+}
+
+.left {
+    float: left;
+}
+
+.storyTitle {
+    width: 70%;
+}
+.storyTitle a {
+    color: #656565;
+    text-decoration: none;
+}
+.storyTitle a:visited {
+    color: #aaaaaa;
+}
+
+
+.storyIndex {
+    width: 5%;
+}
+
+.storyRating {
+    width: 5%;
+}
+
+.comments {
+    width: 5%;
+}
+
+.timePublished {
+    width: 7%;
+    font-size: .75em;
+}
+
+.domainRef {
+    width: 11%;
+    font-size: .75em;
+}

@@ -1,0 +1,8 @@
+<div *ngIf="storyDetails != null" class="storyContainer">
+    <div class="subStory left storyIndex"></div>
+    <div class="subStory left storyRating">{{storyDetails.score}}</div>
+    <div class="subStory left storyTitle"><a href="{{storyDetails.url}}">{{storyDetails.title}}</a></div>
+    <div class="subStory left domainRef">{{ domainExtractor(storyDetails.url) }}</div>
+    <div class="subStory left timePublished">{{ dateParser(storyDetails.time) }}</div>
+    <div class="subStory left comments">{{numberOfComments}}</div>
+</div>
